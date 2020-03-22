@@ -3,6 +3,9 @@ import { GlobalContext } from '../context/GlobalState';
 import { Transaction } from './Transaction';
 
 export const TransactionList = () => {
+    // const context = useContext(GlobalContext); 
+    // const { transactions } = context; 
+    // OR
     const { transactions } = useContext(GlobalContext);
 
     return (
